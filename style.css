@@ -1,0 +1,312 @@
+body {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+/* .wrappermain {
+  width: 100% !important;
+} */
+
+.container1 {
+  position: relative;
+  width: 75%;
+  height: 95vh;
+  margin: auto;
+  margin-left: 22vh;
+}
+
+.result {
+  background: linear-gradient(rgb(76, 76, 255), rgb(47, 37, 185));
+  width: 350px;
+  height: 500px;
+  border-radius: 1.5rem;
+  position: relative;
+}
+
+.container2 {
+  background-color: rgb(248, 248, 248);
+  width: 700px;
+  height: 500px;
+  border-radius: 1.5rem;
+  position: relative;
+  top: 20vh;
+  left: 37vh;
+  box-shadow: 9px 9px 15px 1px rgba(0, 0, 0, 0.322);
+}
+
+.result h1 {
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: #f6f6f6e1;
+  font-size: 24px;
+}
+
+.resultcircle {
+  background: linear-gradient(rgb(56, 56, 255), rgb(13, 0, 189));
+  position: relative;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  top: 10%;
+  left: 25%;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.resultcircle h1 {
+  font-size: 70px;
+  color: #ffffff;
+}
+
+.resultcircle p {
+  position: relative;
+  font-size: 1.1rem;
+  color: #f6f6f675;
+  font-weight: 600;
+  left: 60px;
+  bottom: 20px;
+}
+
+.result > great {
+  color: black;
+}
+
+.btmparagraph {
+  color: #f6f6f6;
+}
+
+.btmparagraph h1 {
+  font-size: 30px;
+  color: #ffffff;
+  top: 50px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.btmparagraph p {
+  position: relative;
+  color: #f6f6f686;
+  font-family: "Hanken Grotesk", sans-serif;
+  text-align: center;
+  top: -20px;
+  padding: 65px;
+}
+
+.rightcolumn {
+  font-family: "Hanken Grotesk", sans-serif;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  bottom: 485px;
+  left: 390px;
+}
+
+.rightcolumn h1 {
+  font-family: "Hanken Grotesk", sans-serif;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  color: #1f1f1f;
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.reaction {
+  background-color: #fcf1f1;
+  display: flex;
+  position: relative;
+  width: 275px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  color: red;
+}
+
+.reaction svg {
+  position: relative;
+  bottom: -4px;
+  right: 41px;
+}
+
+.reaction span {
+  position: relative;
+  right: 40px;
+  font-size: 1.1rem;
+}
+
+.reaction p {
+  width: 275px;
+}
+
+.eighty {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: relative;
+  left: 37px;
+  color: #1f1f1f;
+  font-weight: 200;
+}
+
+.hundred3 {
+  position: relative;
+  left: 42px;
+  color: #1f1f1f;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.memory {
+  background-color: #ffffd4;
+  display: flex;
+  position: relative;
+  width: 275px;
+  top: 20px;
+  height: 60px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  color: rgb(252, 175, 31);
+}
+
+.memory p {
+  width: 275px;
+}
+
+.memory svg {
+  position: relative;
+  bottom: -4px;
+  right: 43px;
+}
+
+.memory span {
+  position: relative;
+  right: 40px;
+  font-size: 1.1rem;
+}
+
+.nintytwo {
+  position: relative;
+  left: 38px;
+  color: #1f1f1f;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.hundred2 {
+  position: relative;
+  left: 42px;
+  color: #1f1f1f;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.verbal {
+  background-color: #defceb;
+  display: flex;
+  position: relative;
+  width: 275px;
+  height: 60px;
+  top: 40px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  color: rgb(83, 250, 83);
+}
+
+.verbal p {
+  width: 275px;
+}
+
+.verbal svg {
+  position: relative;
+  bottom: -4px;
+  right: 51px;
+}
+
+.verbal span {
+  position: relative;
+  right: 48px;
+  font-size: 1.1rem;
+}
+
+.sixtyone {
+  left: 45px;
+  position: relative;
+  color: #1f1f1f;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.hundred1 {
+  position: relative;
+  left: 50px;
+  color: #1f1f1f;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.visual {
+  background-color: #ebe6f0;
+  display: flex;
+  position: relative;
+  width: 275px;
+  height: 60px;
+  top: 60px;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  color: rgb(132, 0, 255);
+}
+
+.visual p {
+  width: 275px;
+}
+
+.visual span {
+  position: relative;
+  right: 51px;
+  font-size: 1.1rem;
+}
+
+.visual svg {
+  position: relative;
+  bottom: -4px;
+  right: 54px;
+}
+
+.seventwo {
+  position: relative;
+  display: inline-block;
+  left: 45px;
+  color: #1f1f1f;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.hundred {
+  color: wheat;
+  position: relative;
+  left: 53px;
+  color: #1f1f1f;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.continue {
+  position: relative;
+  display: inline-block;
+  width: 275px;
+  top: 100px;
+  height: 58px;
+  border-radius: 50px;
+  font-family: "Hanken Grotesk";
+  background-color: #352d57;
+  color: white;
+  border: none;
+  font-size: 1rem;
+}
+
+.continue:hover {
+  cursor: pointer;
+}
